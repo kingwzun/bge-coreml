@@ -1,0 +1,7 @@
+coremltools>=9.0
+torch>=2.4
+transformers==4.44.2
+numpy
+
+# 可选：只在需要与旧实现对比时安装
+# onnxruntime

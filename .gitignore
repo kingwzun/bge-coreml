@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+out/
+bge-small-zh/
+*.mlpackage
+*.mlmodelc
