@@ -78,7 +78,7 @@ PyTorch : 4.4 ms
 | trace 报 `aten::Int(张量)` | `position_ids` 是运行时 `arange` | `register_buffer` 成常量并在 forward 显式传入 |
 | `per_block quantization is supported since iOS18` | 量化粒度与最低系统版本冲突 | 用 `per_channel`（iOS16 起） |
 
-踩坑细节与完整实测数据见作者博客（发布后在此补充链接）。本仓库只放可复现的脚本与两端接入代码。
+踩坑细节与完整实测数据见配套文章：[23MB 的模型，40MB 的引擎：iOS 包体积瘦身实录](https://www.cnblogs.com/kingwz/p/23732944)。本仓库只放可复现的脚本与两端接入代码。
 
 ---
 
